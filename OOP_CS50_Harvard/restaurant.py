@@ -27,4 +27,13 @@ fusion = Restaurant('Fusion', 'Danish', 'from 14-22')
 kro = Restaurant('Kro', 'French', 'from 15-23')
 amici.set_number_served(12)
 fusion.set_number_served(14)
-k
+kro.set_number_served(123)
+
+amici.describe_restaurant()
+fusion.describe_restaurant()
+kro.describe_restaurant()
+
+my_ice_creams = IceCreams('Iceee', 'Deserts', 'from 10-18')
+my_ice_creams.set_number_served(10)
+my_ice_creams.describe_restaurant()
+my_ice_creams.show_flavors()
