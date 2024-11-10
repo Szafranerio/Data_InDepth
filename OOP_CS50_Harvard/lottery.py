@@ -1,4 +1,5 @@
 import random
+from math import comb
 
 NUMBERS = range(1, 4)
 WINNMBERS = range(1, 5)
@@ -8,7 +9,6 @@ user_super_number = []
 
 win_numbers = []
 winsup_numbers = []
-
 
 class Lotery():
     def __init__(self):
@@ -23,7 +23,6 @@ class Lotery():
                 input('Pick the super number from the range 1-5: '))
             user_super_number.append(super_number)
 
-
 class WinNumbers():
     def __init__(self):
         pass
@@ -37,7 +36,6 @@ class WinNumbers():
             winsup_numbers.append(wsn)
             print(f'Winning numbers: {win_numbers}')
             print(f'Super numbers: {wsn}')
-
 
 class Check():
     def __init__(self, user_numbers, win_numbers):
@@ -74,4 +72,4 @@ print(winsup_numbers)
 
 check = Check(user_numbers, win_numbers)
 check.check_winner()
-check.my_ticker(user_numbers, win_numbers)
+check.my_ticker(user_num
