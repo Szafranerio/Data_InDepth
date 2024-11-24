@@ -72,4 +72,4 @@ print(winsup_numbers)
 
 check = Check(user_numbers, win_numbers)
 check.check_winner()
-check.my_ticker(user_num
+check.my_ticker(user_numbers, win_numbers)

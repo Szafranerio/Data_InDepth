@@ -18,4 +18,8 @@ print(f'My dogs is {my_dog.name.title()} and has {my_dog.age} years old')
 
 command = input('What is your command: ').strip().title()
 if command == 'Sit':
-   
+    my_dog.sit()
+else:
+    my_dog.roll()
+    
+    
