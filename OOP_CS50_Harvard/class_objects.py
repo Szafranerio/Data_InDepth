@@ -16,7 +16,6 @@ my_dog = Dog('Azor', 'Labrador', 'No')
 print(my_dog.species)
 my_dog.bark(7)
 
-
 class Circle():
     
     #Class object
