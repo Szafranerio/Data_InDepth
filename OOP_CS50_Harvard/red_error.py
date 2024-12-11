@@ -5,11 +5,11 @@ class Animal():
         self.species = species
                
 class Bird(Animal):
-    def __init__(self, species):
+    def __init__(self, speciesx:str):
         super().__init__(species)
         
 class Reptile(Animal):
-    def __init__(self, species):
+    def __init__(self, species:str):
         super().__init__(species)
 
 try:        
@@ -22,4 +22,6 @@ try:
     lizard = Reptile("Tom")
     print(f'{lizard.species}')
 except ValueError as error:
-    print(
+    print(error)
+    
+    
