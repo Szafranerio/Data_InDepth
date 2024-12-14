@@ -27,3 +27,24 @@ g = simple_gen()
 print(next(g))
 print(next(g))
 print(next(g))
+
+
+#Squares generator
+
+def generate_squares(n):
+    for x in range(n):
+        yield x**2
+        
+list(generate_squares(5))
+
+#Random numbers between low and high
+import random
+
+def random_num(low, high, n):
+    for _ in range(n):
+        yield random.randint(low, high)
+        
+for num in random_num(1,10,6):
+    print(num)
+        
+        
