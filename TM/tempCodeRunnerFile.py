@@ -1,0 +1,2 @@
+BACKGROUND_COLOR = '#E8E8E8'
+TEXT_COLOR = 'black'
